@@ -5,18 +5,30 @@ An end-to-end machine learning project that predicts graduate admission success 
 ## Project Structure
 
 ```
-AI-Powered-Admission-Success-Predictor/
+AI-Powered-Admission-Predictor/
+├── app/
+│   ├── app.py               # Main Streamlit app
+│   ├── predictor.py         # Model prediction logic
+│   ├── explain.py           # Rule-based explanations
+│   ├── llm_explainer.py     # AI explanation (Groq/OpenAI)
+│   ├── config.py            # Configuration
+│   └── utils.py             # Helper functions
+├── models/
+│   ├── best_model.pkl
+│   └── preprocessor.pkl
 ├── data/
-│   ├── raw/                  # Raw dataset
-│   └── processed/            # Processed train/test splits
-├── notebooks/                # Exploratory analysis
-├── src/                      # Training and evaluation pipeline
-├── streamlit/                # Interactive prediction app
-├── models/                   # Saved model artifacts
-├── reports/                  # Metrics and explainability plots
-├── README.md
+│   ├── raw/
+│   └── processed/
+├── notebooks/
+│   └── AI_Admission_Predictor.ipynb
+├── reports/
+│   └── logistic_coefficients.csv
+├── assets/
+│   ├── logo.png
+│   └── banner.png
 ├── requirements.txt
-└── .gitignore
+├── README.md
+└── LICENSE
 ```
 
 ## Setup
@@ -33,7 +45,7 @@ pip install -r requirements.txt
 2. **Train model** — `python src/train_model.py`
 3. **Evaluate** — `python src/evaluate_model.py`
 4. **Explain predictions** — `python src/explainability.py`
-5. **Launch app** — `streamlit run streamlit/app.py`
+5. **Launch app** — `streamlit run app/app.py` or `streamlit run streamlit/app.py`
 
 ## Dataset
 
