@@ -1,0 +1,18 @@
+Feature,Coefficient
+num__cgpa,1.8375056485522767
+num__gre_score,1.2097221244584364
+num__research,0.6127598825883965
+cat__program_Computer Science,0.5426769544182668
+num__university_rating,0.47548968175489775
+cat__program_Information Technology,0.3857618839938488
+num__lor,0.3810940914448991
+num__sop,0.3566696403707525
+cat__application_completion_Incomplete,0.31689664099727005
+cat__gender_Female,0.16554372885765153
+cat__program_Artificial Intelligence,0.12447443321618552
+cat__program_Computer Engineering,0.09767003053550896
+num__toefl_score,0.013484551591778667
+cat__gender_Male,-0.11034047992517268
+cat__application_completion_Complete,-0.2616933920646203
+cat__program_Data Science,-0.4636849753561283
+cat__program_Software Engineering,-0.6316950778750605
